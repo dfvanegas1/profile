@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(23, 107, 135);
+  border-radius: 4px;
+  padding: 80px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#profile-title {
+  background-color: rgb(238, 245, 255);
+  font-weight: bolder;
+}
+
+#pic-and-description {
+  background-color: rgb(238, 245, 255);
+}
+
+#pic-and-description img {
+  border-radius: 50%;
+  box-shadow: 5px, 5px, 3px, black;
+
+}
+
+.generic-cards {
+  background-color: rgb(180, 212, 255);
+  align-items: end;
+}
+
+.generic-cards>ul {
+  text-align: start;
+
+}
+
+.generic-cards>ul>li {
+  display: flex;
+  align-items: center;
+}
+
+#cta_button {
+  background-color: rgb(23, 107, 135);
+  width: 10%;
+  padding: 2px;
+  border: 2px solid yellow;
+  text-align: center;
+  background: white;
+  color: #00a562;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+
+
+#social {
+  background-color: rgb(238, 245, 255);
+  size: 50px;
+}
+
+#social>ul>li {
+  background-color: rgb(238, 245, 255);
+  size: 50px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i {
+  font-size: 40px;
+
+}
+
+.experience_image {
+  width: 70px;
+}
+
+#other {
+  padding: 0, 0;
+  text-align: center;
+}
+
+#other>li {
+  display: inline-block;
+}
+
+.passion-hobbies {
+  background-color: rgb(180, 212, 255);
+}
+
+.passion-hobbies>ul>li {
+  background-color: rgb(180, 212, 255);
+  text-align: left;
+}
